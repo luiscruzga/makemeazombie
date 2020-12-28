@@ -1,0 +1,33 @@
+{
+  "name": "makemeazombie",
+  "version": "1.0.0",
+  "description": "Transforma tus imagenes dandole un estilo de zombie. Se utiliza la pagina de https://makemeazombie.com",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luiscruzga/makemeazombie.git"
+  },
+  "keywords": [
+    "zombie",
+    "make",
+    "transform",
+    "image",
+    "photo"
+  ],
+  "author": "Luis Cruz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luiscruzga/makemeazombie/issues"
+  },
+  "homepage": "https://github.com/luiscruzga/makemeazombie#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "node-base64-image": "^2.0.1",
+    "path": "^0.12.7",
+    "request": "^2.88.2",
+    "sharp": "^0.27.0"
+  }
+}
