@@ -37,7 +37,7 @@ class makemeazombie {
                     });
 
                     request.post({
-                        url: 'https://zombieapi.azurewebsites.net/transform',
+                        url: 'https://deepgrave-image-processor-no7pxf7mmq-uc.a.run.app/transform_in_place',
                         contentType: false,
                         formData: {
                             image: fs.createReadStream(pathImage)
@@ -54,7 +54,7 @@ class makemeazombie {
                             } else {
                                 let imgBuffer =  Buffer.from(body, 'base64');
                                 sharp(imgBuffer)
-                                .extract({ width: 512, height: 512, left: 512, top: 0 })
+                                //.extract({ width: 512, height: 512, left: 512, top: 0 })
                                 .resize(720, 720)
                                 .toBuffer()
                                 .then( buffer => {

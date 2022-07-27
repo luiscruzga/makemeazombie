@@ -1,6 +1,6 @@
 {
   "name": "makemeazombie",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Transforma tus imagenes dandole un estilo de zombie. Se utiliza la pagina de https://makemeazombie.com",
   "main": "./src/index.js",
   "scripts": {
